@@ -11,4 +11,4 @@ for game, markdown언어 배워야함.
 2. dd
 4. dd
 3. a
-6.?
+6. ?

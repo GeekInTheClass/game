@@ -1,5 +1,3 @@
-git init
-
 # game
 for game, markdown언어 배워야함.
 

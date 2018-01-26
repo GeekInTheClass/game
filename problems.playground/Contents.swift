@@ -72,4 +72,29 @@ print(answer)
 var problem : [String:Int] = ["a":1, "b":4, "c":2, "d":1]
 var answer3 = problem.sorted{$0.value < $1.value}.map{String($0.value)} // 시간남으면 이걸 반복문으로 만들어보자. 시간없어서 반복문으로 문제 만들지 못했음.
 
-print(a)
+//print(a)
+
+//4번 문제
+//3의 배수 값만 새로운 배열에 넣어라
+let nArray = [1,2,3,4,5,6,7,8,9,10,11,12]
+var num : [Int] = []
+for i in nArray{
+    if i % 3 == 0{
+        num.append(i)
+    }
+}
+print(num)
+
+
+//5번 문제
+var movieRating : [String:Double] = ["1987":9.5,"needFORSPEED":8.3,"pokemon":7.7,"HDD":9.1,"Titanic":9.9,"Avartar":9.7]
+var movie : [Double] = []
+for i in movieRating.values{
+    if i > 9{
+        movie.append(i)
+    }
+}
+print(movie)
+
+
+
